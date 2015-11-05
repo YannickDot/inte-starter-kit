@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "webpack --watch && gulp less:watch",
+    "serve": "webpack --watch",
+    "less": "gulp less:watch",
     "build": "webpack"
   },
   "repository": {
