@@ -1,0 +1,29 @@
+{
+  "name": "inte-starter-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://YannickDot@github.com/YannickDot/inte-starter-kit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YannickDot/inte-starter-kit/issues"
+  },
+  "homepage": "https://github.com/YannickDot/inte-starter-kit#readme",
+  "devDependencies": {
+    "browser-sync": "^2.9.12",
+    "browser-sync-webpack-plugin": "^1.0.0",
+    "ts-loader": "^0.6.0",
+    "typescript": "^1.8.0-dev.20151105",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  }
+}
