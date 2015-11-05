@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "webpack --watch",
+    "serve": "webpack --watch && gulp less:watch",
     "build": "webpack"
   },
   "repository": {
@@ -21,6 +21,15 @@
   "devDependencies": {
     "browser-sync": "^2.9.12",
     "browser-sync-webpack-plugin": "^1.0.0",
+    "gulp": "^3.9.0",
+    "gulp-changed": "^1.3.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-less": "^3.0.3",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-rename": "^1.2.2",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.1",
+    "stream-combiner2": "^1.1.1",
     "ts-loader": "^0.6.0",
     "typescript": "^1.8.0-dev.20151105",
     "webpack": "^1.12.2",

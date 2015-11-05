@@ -10,7 +10,8 @@ module.exports = {
   },
   module: {
     loaders: [
-        { test: /\.ts$/, loader: 'ts-loader', exclude: /node_modules/ }
+        { test: /\.ts$/, loader: 'ts-loader', exclude: /node_modules/ },
+        { test: /\.less$/, loader: "style!css!less" }
     ]
   },
   plugins: [
@@ -20,7 +21,11 @@ module.exports = {
         {
           host: 'localhost',
           port: 3000,
-          server: { baseDir: ['dist'] }
+          server: { baseDir: ['dist'] },
+          files: [
+            'dist/*.css',
+            'dist/*.html'
+          ]
         },
         // plugin options
         {

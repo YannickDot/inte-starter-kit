@@ -1,2 +1,2 @@
-console.log("😍 !");
+console.log("😍 💩 !");
 //# sourceMappingURL=app.js.map
