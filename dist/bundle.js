@@ -42,9 +42,17 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var child_1 = __webpack_require__(1);
+	alert(child_1.str + " \uD83D\uDE0D \uD83D\uDCA9 !");
+
+
+/***/ },
+/* 1 */
 /***/ function(module, exports) {
 
-	console.log("😍 💩 !");
+	exports.str = "COUCOU";
 
 
 /***/ }

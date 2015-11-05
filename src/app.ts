@@ -1,1 +1,3 @@
-console.log("😍 💩 !");
+import {str} from './child';
+
+alert(`${str} 😍 💩 !`);
