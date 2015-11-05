@@ -7,7 +7,7 @@
 In one terminal : 
 ```npm run serve```
 
-In another terminal :
+and in another terminal :
 ```npm run less```
 
 
